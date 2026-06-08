@@ -10,7 +10,7 @@ const products = [
     size: "IT 50",
     condition: "Excellent",
     price: "₽ 145 000",
-    description: "Культовое пальто с геометричным силуэтом. Тяжёлый шерстяной габардин, асимметричный запах.",
+    description: "Iconic coat with a geometric silhouette. Heavy wool gabardine, asymmetric wrap closure.",
     category: "Outerwear",
   },
   {
@@ -21,7 +21,7 @@ const products = [
     size: "JP 3",
     condition: "Mint",
     price: "₽ 98 000",
-    description: "Редкий пиджак из культовой коллекции Jun Takahashi. Деконструированный крой, вышивка на подкладке.",
+    description: "Rare jacket from Jun Takahashi's iconic collection. Deconstructed cut, embroidered lining.",
     category: "Jacket",
   },
   {
@@ -32,7 +32,7 @@ const products = [
     size: "IT 48",
     condition: "Deadstock",
     price: "₽ 112 000",
-    description: "Трикотажные брюки с характерными продольными швами. Синтетическая нить, анатомическая посадка.",
+    description: "Knit trousers with signature longitudinal seams. Synthetic thread, anatomical fit.",
     category: "Trousers",
   },
 ]
@@ -59,7 +59,7 @@ export function ShowcaseSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Каталог
+          Catalogue
         </motion.p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

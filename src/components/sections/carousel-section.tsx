@@ -45,8 +45,8 @@ export function CarouselSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Мёртвые сезоны.<br />
-          <em className="italic font-light text-muted-foreground">Живые вещи.</em>
+          Dead seasons.<br />
+          <em className="italic font-light text-muted-foreground">Living pieces.</em>
         </motion.h2>
       </div>
 

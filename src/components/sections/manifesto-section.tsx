@@ -17,18 +17,18 @@ export function ManifestoSection() {
     >
       <div className="max-w-5xl mx-auto relative">
         <h2 className="text-4xl md:text-6xl lg:text-7xl font-serif leading-tight text-center text-foreground/10">
-          Одежда как ритуал.
+          Clothing as ritual.
           <br />
-          Архив как религия.
+          Archive as religion.
         </h2>
 
         <motion.h2
           className="absolute inset-0 text-4xl md:text-6xl lg:text-7xl font-serif leading-tight text-center bg-gradient-to-r from-red-900 via-red-600 to-red-900 bg-clip-text text-transparent"
           style={{ clipPath }}
         >
-          Одежда как ритуал.
+          Clothing as ritual.
           <br />
-          Архив как религия.
+          Archive as religion.
         </motion.h2>
       </div>
     </section>

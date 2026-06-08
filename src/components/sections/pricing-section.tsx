@@ -3,37 +3,37 @@ import Icon from "@/components/ui/icon"
 
 const categories = [
   {
-    name: "Одежда",
-    price: "от ₽ 30 000",
-    description: "Верхняя одежда, трикотаж, брюки, рубашки",
+    name: "Clothing",
+    price: "from ₽ 30 000",
+    description: "Outerwear, knitwear, trousers, shirts",
     features: [
       "Rick Owens · ERD · Undercover · CCP",
-      "Размеры IT, JP, EU, OS",
-      "Состояние: Deadstock до Excellent",
-      "Полное описание и фото",
+      "Sizes IT, JP, EU, OS",
+      "Condition: Deadstock to Excellent",
+      "Full description & photos",
     ],
   },
   {
-    name: "Обувь & Аксессуары",
-    price: "от ₽ 15 000",
-    description: "Кожаная обувь, сумки, украшения",
+    name: "Footwear & Accessories",
+    price: "from ₽ 15 000",
+    description: "Leather shoes, bags, jewellery",
     features: [
-      "Архивная обувь CCP и Rick Owens",
-      "Кожаные изделия ручной работы",
-      "Серебряные украшения ERD",
-      "Кошельки, ремни, перчатки",
+      "Archive footwear by CCP & Rick Owens",
+      "Handcrafted leather goods",
+      "ERD silver jewellery",
+      "Wallets, belts, gloves",
     ],
     popular: true,
   },
   {
-    name: "Парфюм",
-    price: "от ₽ 8 000",
-    description: "Нишевый и архивный парфюм",
+    name: "Fragrance",
+    price: "from ₽ 8 000",
+    description: "Niche & archive perfumery",
     features: [
       "Comme des Garçons Series",
       "Nasomatto · Orto Parisi",
       "Alessandro Gualtieri",
-      "Редкие снятые ароматы",
+      "Rare discontinued scents",
     ],
   },
 ]
@@ -48,8 +48,8 @@ export function PricingSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-5xl font-serif text-foreground">Категории</h2>
-          <p className="text-muted-foreground mt-4 max-w-md mx-auto text-sm font-light">Одежда, обувь, аксессуары и парфюм в едином опиум-архиве.</p>
+          <h2 className="text-3xl md:text-5xl font-serif text-foreground">Categories</h2>
+          <p className="text-muted-foreground mt-4 max-w-md mx-auto text-sm font-light">Clothing, footwear, accessories and fragrance — one opium archive.</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -65,7 +65,7 @@ export function PricingSection() {
             >
               {cat.popular && (
                 <span className="absolute -top-px left-1/2 -translate-x-1/2 bg-primary text-primary-foreground text-[10px] uppercase tracking-widest font-sans px-4 py-1">
-                  В наличии
+                  Available
                 </span>
               )}
 
@@ -93,7 +93,7 @@ export function PricingSection() {
                     : "bg-transparent text-foreground border border-border hover:border-foreground"
                 }`}
               >
-                Смотреть
+                Browse
               </button>
             </motion.div>
           ))}

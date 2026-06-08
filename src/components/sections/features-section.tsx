@@ -51,7 +51,7 @@ function PriceTag() {
       >
         {prices[index]}
       </motion.span>
-      <span className="text-xs text-muted-foreground uppercase tracking-widest">цена</span>
+      <span className="text-xs text-muted-foreground uppercase tracking-widest">price</span>
     </div>
   )
 }
@@ -89,7 +89,7 @@ function ConditionMeter() {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         />
       </div>
-      <span className="text-xs text-muted-foreground uppercase tracking-widest">состояние</span>
+      <span className="text-xs text-muted-foreground uppercase tracking-widest">condition</span>
     </div>
   )
 }
@@ -104,7 +104,7 @@ export function FeaturesSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Ассортимент
+          Selection
         </motion.p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -121,8 +121,8 @@ export function FeaturesSection() {
               <BrandRotator />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-xl text-foreground">Архивные бренды</h3>
-              <p className="text-muted-foreground text-xs mt-1 font-light">Только оригинальные архивные вещи от культовых домов.</p>
+              <h3 className="font-serif text-xl text-foreground">Archive Labels</h3>
+              <p className="text-muted-foreground text-xs mt-1 font-light">Original archive pieces from the most cult houses only.</p>
             </div>
           </motion.div>
 
@@ -139,8 +139,8 @@ export function FeaturesSection() {
               <PriceTag />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-xl text-foreground">Честные цены</h3>
-              <p className="text-muted-foreground text-xs mt-1 font-light">Каждая позиция с описанием и обоснованием стоимости.</p>
+              <h3 className="font-serif text-xl text-foreground">Fair Pricing</h3>
+              <p className="text-muted-foreground text-xs mt-1 font-light">Every listing includes a full description and price breakdown.</p>
             </div>
           </motion.div>
 
@@ -157,8 +157,8 @@ export function FeaturesSection() {
               <ConditionMeter />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-xl text-foreground">Состояние</h3>
-              <p className="text-muted-foreground text-xs mt-1 font-light">Детальная оценка состояния каждого предмета.</p>
+              <h3 className="font-serif text-xl text-foreground">Condition</h3>
+              <p className="text-muted-foreground text-xs mt-1 font-light">Detailed grading for every single item in the archive.</p>
             </div>
           </motion.div>
         </div>
